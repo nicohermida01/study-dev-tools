@@ -25,20 +25,21 @@ For everything to work correctly, you will first need to clone these 3 repositor
 
 1. Clone the repositories
 
-...
+```
 git clone https://github.com/nicohermida01/study-dev-tools.git
 
 git clone https://github.com/nicohermida01/study-app-api.git
 
 git clone https://github.com/nicohermida01/study-app-front.git
-...
+```
 
 2. Copy the env file
 
 In study-app-api and study-app-front:
-...
+
+```
 cp ./.env.examplo ./.env
-...
+```
 
 3. Start up all containers
 
@@ -52,7 +53,7 @@ root-proyect/
 ├─── start.sh
 └─── stop.sh
 
-...
+```
 chmod +x ./start.sh
 ./start.sh
-...
+```
