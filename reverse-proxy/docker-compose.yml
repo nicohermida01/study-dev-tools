@@ -1,0 +1,16 @@
+services:
+  reverse-proxy:
+    image: traefik:alpine
+    container_name: study-proxy
+    command: --api --docker
+    ports:
+      - 80:80
+      - 8080:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - study_network
+
+networks:
+  study_network:
+    external: true
