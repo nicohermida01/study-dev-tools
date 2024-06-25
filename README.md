@@ -46,12 +46,12 @@ cp ./.env.examplo ./.env
 In the study-dev-tools repo you will find two scripts `start.sh` and `stop.sh`. These allow all containers to be started and stopped.
 You need to move both scripts to the root folder of the project.
 
-root-proyect/
-├─── study-dev-tools/
-├─── study-app-api/
-├─── study-app-front/
-├─── start.sh
-└─── stop.sh
+root-proyect/ <br>
+├─── study-dev-tools/ <br>
+├─── study-app-api/ <br>
+├─── study-app-front/ <br>
+├─── start.sh <br>
+└─── stop.sh <br>
 
 ```
 chmod +x ./start.sh
