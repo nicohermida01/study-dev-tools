@@ -6,18 +6,8 @@ db.nationalities.insertMany([
     _id: ObjectId('667ab29974885a54c4a26a13'),
     name: 'Argentina' 
   },
-  { 
-    _id: ObjectId('667ab29974885a54c4a26a14'),
-    name: 'Brazil' 
-  },
-  { 
-    _id: ObjectId('667ab29974885a54c4a26a15'),
-    name: 'USA' 
-  },
-  { 
-    _id: ObjectId('667ab29974885a54c4a26a16'),
-    name: 'Spain' 
-  },
+  { name: 'Paraguay' }, { name: 'Chile' }, { name: 'Uruguay' }, { name: 'Bolivia' }, { name: 'Brazil' }, { name: 'Ecuador' }, { name: 'Colombia' },
+  { name: 'Venezuela' }, { name: 'Mexico' }, { name: 'United States' }, { name: 'Canada' }, { name: 'France' }, { name: 'Spain' },
 ])
 
 db.users.insertOne({
@@ -33,4 +23,10 @@ db.users.insertOne({
   updatedAt: ISODate('2024-06-25T12:09:03.409Z'),
   __v: 0
 })
+
+db.subjects.insertMany([
+  { name: 'Maths' }, { name: 'Medicine' }, { name: 'Psychology' }, { name: 'Physics' }, { name: 'Chemistry' }, { name: 'Biology' }, 
+  { name: 'Economics' }, { name: 'History' }, { name: 'Philosophy' }, { name: 'Computer Science' }, { name: 'Computer Science' }, 
+  { name: 'Electrical Engineering' }, { name: 'Politics' }, { name: 'Literature' },
+])
 EOF
