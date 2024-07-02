@@ -16,6 +16,7 @@ db.users.insertOne({
   lastName: 'Admin',
   username: 'admin',
   email: 'admin@correo.com',
+  avatarNum: '1',
   password: "\$2b\$10\$Q.GPACrSihswvApo.TT1YuR7QnHGphmVKhoQ5IjmqUN1pZXgtlHEi",
   dateOfBirth: ISODate('2000-01-01T00:00:00.000Z'),
   nationality: ObjectId('667ab29974885a54c4a26a13'),
